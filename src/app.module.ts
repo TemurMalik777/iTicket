@@ -16,6 +16,14 @@ import { SeatModule } from './seat/seat.module';
 import { LangModule } from './lang/lang.module';
 import { HumanCategoryModule } from './human_category/human_category.module';
 import { EventTypeModule } from './event_type/event_type.module';
+import { EventModule } from './event/event.module';
+import { TicketStatusModule } from './ticket_status/ticket_status.module';
+import { TicketModule } from './ticket/ticket.module';
+import { CardModule } from './card/card.module';
+import { CardItemModule } from './card_item/card_item.module';
+import { BookingModule } from './booking/booking.module';
+import { PaymentMethodModule } from './payment_method/payment_method.module';
+// import { DeliveryMethodModule } from './delivery_method/delivery_method.module';
 
 @Module({
   imports: [
@@ -36,6 +44,14 @@ import { EventTypeModule } from './event_type/event_type.module';
     LangModule,
     HumanCategoryModule,
     EventTypeModule,
+    EventModule,
+    TicketStatusModule,
+    TicketModule,
+    CardModule,
+    CardItemModule,
+    BookingModule,
+    PaymentMethodModule,
+    // DeliveryMethodModule,
   ],
   controllers: [],
   providers: [],
